@@ -2,9 +2,12 @@
 
 See documentation on ESLint shareable configs: http://eslint.org/docs/developer-guide/shareable-configs.html
 
-## Usage
-Add `eslint-config-1stdibs` to your `package.json` in the `devDependencies`. You will also need to add the required `peerDependencies` to your `devDependencies`.
+## Installation
+```sh
+npm install --save-dev eslint-config-1stdibs
+```
 
+## Usage
 Create an `.eslintrc` like the following:
 
 ```json
