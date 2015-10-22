@@ -3,7 +3,8 @@
 module.exports = {
     "env": {
         "commonjs": true,
-        "es6": true
+        "browser": true,
+        "es6": false
     },
     "rules": {
         "no-bitwise": 2,
