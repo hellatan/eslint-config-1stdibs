@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-1stdibs",
   "github": "https://github.com/1stdibs/eslint-config-1stdibs",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "ESLint configurations for 1stdibs projects",
   "main": "index.js",
   "author": "Front-End Engineering @ 1stdibs <front-end@1stdibs.com> (https://1stdibs.com)",
   "peerDependencies": {
-      "eslint": "^1.6.0",
-      "eslint-plugin-react": "^3.2.0",
-      "eslint-plugin-jasmine": "^1.4.0"
+    "eslint": "^1.6.0",
+    "eslint-plugin-react": "^3.2.0",
+    "eslint-plugin-jasmine": "^1.4.0"
   }
 }
