@@ -28,7 +28,12 @@ module.exports = {
             "allow-in-func"
         ],
         "react/no-did-update-set-state": 2,
-        "react/no-multi-comp": 2,
+        "react/no-multi-comp": [
+            2,
+            {
+                "ignoreStateless": true
+            }
+        ],
         "react/no-unknown-property": 2,
         "react/prop-types": 2,
         "react/react-in-jsx-scope": 2,
