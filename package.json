@@ -4,7 +4,7 @@
   "version": "1.1.4",
   "description": "ESLint configurations for 1stdibs projects",
   "main": "index.js",
-  "author": "Front-End Engineering @ 1stdibs <front-end@1stdibs.com> (https://1stdibs.com)",
+  "author": "1stdibs <npm@1stdibs.com> (https://1stdibs.com)",
   "peerDependencies": {
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.2.0",
