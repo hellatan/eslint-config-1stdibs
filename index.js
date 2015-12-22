@@ -6,7 +6,13 @@ module.exports = {
         "browser": true,
         "es6": false
     },
+    "plugins" : [
+        "require-path-exists"
+    ],
     "rules": {
+        "require-path-exists/exists": 2,
+        "require-path-exists/notEmpty": 2,
+        "require-path-exists/tooManyArguments": 2,
         "no-bitwise": 2,
         "curly": 2,
         "eqeqeq": 2,
