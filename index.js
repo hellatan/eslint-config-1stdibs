@@ -10,9 +10,9 @@ module.exports = {
         "require-path-exists"
     ],
     "rules": {
-        "require-path-exists/exists": 2,
-        "require-path-exists/notEmpty": 2,
-        "require-path-exists/tooManyArguments": 2,
+        "require-path-exists/exists": 1,
+        "require-path-exists/notEmpty": 1,
+        "require-path-exists/tooManyArguments": 1,
         "no-bitwise": 2,
         "curly": 2,
         "eqeqeq": 2,
