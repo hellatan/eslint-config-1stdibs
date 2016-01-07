@@ -12,6 +12,7 @@
   "peerDependencies": {
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.2.0",
-    "eslint-plugin-jasmine": "^1.4.0"
+    "eslint-plugin-jasmine": "^1.4.0",
+    "eslint-plugin-require-path-exists": "git+ssh://git@github.com:1stdibs/eslint-plugin-require-path-exists.git#file-ext-whitelist"
   }
 }
