@@ -10,7 +10,9 @@ module.exports = {
         "require-path-exists"
     ],
     "rules": {
-        "require-path-exists/exists": [1, { "extensions": [".es.js", ".jsx", ".html"] }],
+        "require-path-exists/exists": [1, {
+            "extensions": [ '', '.js', '.json', '.node', ".es.js", ".jsx", ".html"]
+        }],
         "require-path-exists/notEmpty": 1,
         "require-path-exists/tooManyArguments": 1,
         "no-bitwise": 2,
