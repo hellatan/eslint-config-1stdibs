@@ -137,7 +137,7 @@ module.exports = {
         "no-inner-declarations": 2,
         "no-underscore-dangle": 0,
         "no-extra-boolean-cast": 1,
-        "no-multi-spaces": 0,
+        "no-multi-spaces": 1,
         "no-spaced-func": 1,
         "key-spacing": [
             0,
