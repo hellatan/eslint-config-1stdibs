@@ -2,7 +2,8 @@
 
 module.exports = {
     "plugins": [
-        "jasmine"
+        "jasmine",
+        "mocha"
     ],
     "env": {
         "jasmine": true,
@@ -19,6 +20,7 @@ module.exports = {
     },
     "rules": {
         "jasmine/no-suite-dupes": [1, "branch"],
-        "jasmine/no-spec-dupes": [1, "branch"]
+        "jasmine/no-spec-dupes": [1, "branch"],
+        "mocha/no-exclusive-tests": 2
     }
 };
