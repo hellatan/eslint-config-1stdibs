@@ -129,9 +129,9 @@ module.exports = {
             "always"
         ],
         "no-lonely-if": 1,
-        "space-after-keywords": [
+        "keyword-spacing": [
             2,
-            "always"
+            {"after": true}
         ],
         "no-redeclare": 2,
         "no-inner-declarations": 2,
