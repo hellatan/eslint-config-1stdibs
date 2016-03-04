@@ -11,7 +11,7 @@ module.exports = {
         "react/display-name": [
             1,
             {
-                "acceptTranspilerName": true
+                "ignoreTranspilerName": false
             }
         ],
         "react/jsx-boolean-value": 1,
