@@ -37,7 +37,7 @@ module.exports = {
             }
         ],
         "react/no-unknown-property": 2,
-        "react/prop-types": 2,
+        "react/prop-types": 1,
         "react/react-in-jsx-scope": 2,
         "react/require-extension": 1,
         "react/self-closing-comp": 2,
