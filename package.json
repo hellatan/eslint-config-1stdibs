@@ -13,6 +13,7 @@
     "eslint": "^2.0.0",
     "eslint-plugin-react": "^4.1.0",
     "eslint-plugin-jasmine": "^1.4.0",
-    "eslint-plugin-mocha": "^2.0.0"
+    "eslint-plugin-mocha": "^2.0.0",
+    "eslint-plugin-require-path-exists": "^1.1.5"
   }
 }
