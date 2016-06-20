@@ -7,12 +7,13 @@ module.exports = {
     ],
     "parser": "babel-eslint",
     "parserOptions": {
-        "sourceType": "script"
+        "sourceType": "module"
     },
     "env": {
         "es6": true
     },
     "rules": {
+        "strict": 0,
         "flow-vars/define-flow-type": 1,
         "flow-vars/use-flow-type": 1,
         "constructor-super": 2,
