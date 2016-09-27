@@ -8,7 +8,8 @@ module.exports = {
     "env": {
         "jasmine": true,
         "phantomjs": true,
-        "mocha": true
+        "mocha": true,
+        "jest": true
     },
     "globals": {
         "loadFixtures": false,
