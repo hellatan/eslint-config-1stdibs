@@ -155,6 +155,7 @@ module.exports = {
         "no-alert": 1,
         "consistent-return": 1,
         "yoda": 0,
-        "no-return-assign": 1
+        "no-return-assign": 1,
+        "no-dupe-keys": 1
     }
 };
