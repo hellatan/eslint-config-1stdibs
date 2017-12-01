@@ -203,9 +203,9 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "http://npm.intranet.1stdibs.com:4783/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-1stdibs-base@^1.0.1:
-  version "1.0.1"
-  resolved "http://npm.intranet.1stdibs.com:4783/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-1.0.1.tgz#9e9ff5030a65618a3642695566b59a77c3549556"
+eslint-config-1stdibs-base@^1.1.0:
+  version "1.1.0"
+  resolved "http://npm.intranet.1stdibs.com:4783/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-1.1.0.tgz#ac5d84ce4d138eb52f2c575af06c5d00868783e1"
 
 eslint-scope@^3.7.1:
   version "3.7.1"
