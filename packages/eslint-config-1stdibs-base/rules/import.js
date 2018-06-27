@@ -27,6 +27,7 @@ module.exports = {
                 "js": "never",
                 "jsx": "never"
             }
-        ]
+        ],
+        "import/no-default-export": "warn",
     }
 };
