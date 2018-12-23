@@ -15,7 +15,9 @@ module.exports = {
                 "extensions": [
                     ".js",
                     ".jsx",
-                    ".json"
+                    ".json",
+                    ".ts",
+                    ".tsx",
                 ]
             }
         }
@@ -27,7 +29,9 @@ module.exports = {
             {
                 "js": "never",
                 "jsx": "never",
-                "json": "never"
+                "json": "never",
+                "ts": "never",
+                "tsx": "never",
             }
         ],
         "import/no-absolute-path": [
