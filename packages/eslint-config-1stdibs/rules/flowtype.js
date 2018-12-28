@@ -14,7 +14,12 @@ module.exports = {
         "flowtype/no-dupe-keys": "warn",
         "flowtype/no-primitive-constructor-types": "warn",
         "flowtype/no-types-missing-file-annotation": "warn",
-        "flowtype/require-valid-file-annotation": ["warn", "never"]
+        "flowtype/require-valid-file-annotation": ["warn", "never"],
+        "flowtype/no-weak-types": [2, {
+            "any": false ,
+            "Object": true,
+            "Function": true
+        }]
     },
     settings: {
         flowtype: {
