@@ -1,18 +1,18 @@
 module.exports = {
-    "parser": "babel-eslint",
-    "parserOptions": {
-        "sourceType": "module"
+    parser: "babel-eslint",
+    parserOptions: {
+        sourceType: "module"
     },
-    "env": {
-        "es6": true
+    env: {
+        es6: true
     },
-    "rules": {
-        "constructor-super": 2,
-        "no-const-assign": 2,
-        "no-dupe-class-members": 2,
-        "no-this-before-super": 2,
-        "no-var": 1,
-        "prefer-const": 1,
-        "strict": 0
-    },
+    rules: {
+        "constructor-super": "error",
+        "no-const-assign": "error",
+        "no-dupe-class-members": "error",
+        "no-this-before-super": "error",
+        "no-var": "warn",
+        "prefer-const": "warn",
+        strict: "off"
+    }
 };

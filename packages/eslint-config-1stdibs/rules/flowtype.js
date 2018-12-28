@@ -1,26 +1,24 @@
 module.exports = {
-    "plugins": [
-        "flowtype"
-    ],
-    "parser": "babel-eslint",
-    "parserOptions": {
-        "sourceType": "module"
+    plugins: ["flowtype"],
+    parser: "babel-eslint",
+    parserOptions: {
+        sourceType: "module"
     },
-    "env": {
-        "es6": true
+    env: {
+        es6: true
     },
-    "rules": {
-        "flowtype/define-flow-type": 1,
-        "flowtype/use-flow-type": 1,
-        "flowtype/boolean-style": [1, "boolean"],
-        "flowtype/no-dupe-keys": 1,
-        "flowtype/no-primitive-constructor-types": 1,
-        "flowtype/no-types-missing-file-annotation": 1,
-        "flowtype/require-valid-file-annotation": [1, "never"],
+    rules: {
+        "flowtype/define-flow-type": "warn",
+        "flowtype/use-flow-type": "warn",
+        "flowtype/boolean-style": ["warn", "boolean"],
+        "flowtype/no-dupe-keys": "warn",
+        "flowtype/no-primitive-constructor-types": "warn",
+        "flowtype/no-types-missing-file-annotation": "warn",
+        "flowtype/require-valid-file-annotation": ["warn", "never"]
     },
-    "settings": {
-        "flowtype": {
-            "onlyFilesWithFlowAnnotation": true
+    settings: {
+        flowtype: {
+            onlyFilesWithFlowAnnotation: true
         }
     }
 };
