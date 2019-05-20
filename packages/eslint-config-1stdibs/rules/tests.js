@@ -1,9 +1,10 @@
 module.exports = {
-    plugins: ['mocha'],
+    plugins: ['eslint-plugin-mocha', 'eslint-plugin-jest'],
     env: {
         phantomjs: true,
         mocha: true,
         jest: true,
+        'jest/globals': true,
     },
     globals: {
         loadFixtures: false,
@@ -15,5 +16,8 @@ module.exports = {
     },
     rules: {
         'mocha/no-exclusive-tests': 'error',
+        'jest/valid-expect': 'warn',
+        'jest/no-identical-title': 'warn',
+        'jest/no-focused-tests': 'error',
     },
 };
