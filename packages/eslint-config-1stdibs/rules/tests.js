@@ -3,7 +3,6 @@ module.exports = {
     env: {
         phantomjs: true,
         mocha: true,
-        jest: true,
         'jest/globals': true,
     },
     globals: {
