@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-1stdibs",
   "github": "https://github.com/1stdibs/eslint-config-1stdibs",
-  "version": "4.7.3",
+  "version": "5.0.0",
   "description": "ESLint configurations for 1stdibs projects.",
   "main": "index.js",
   "author": "1stdibs <npm@1stdibs.com> (https://1stdibs.com)",
@@ -10,13 +10,22 @@
     "url": "https://github.com/1stdibs/eslint-config-1stdibs"
   },
   "dependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint": "^4.10.0",
-    "eslint-config-1stdibs-base": "^1.5.1",
-    "eslint-plugin-flowtype": "^2.39.1",
-    "eslint-plugin-mocha": "^4.11.0",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint-config-1stdibs-base": "^2.0.0-hella.6",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.11.0",
     "eslint-plugin-react-hooks": "^1.6.0",
-    "eslint-plugin-relay": "^1.3.1"
+    "eslint-plugin-relay": "^1.3.1",
+    "prettier": "^1.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "typescript": "^3.5.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.16.0 <6",
+    "typescript": ">=3.5.1 <4"
   }
 }
