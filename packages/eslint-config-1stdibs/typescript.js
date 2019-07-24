@@ -5,4 +5,7 @@ module.exports = {
         './rules/typescript.js',
         './rules/react.js',
     ],
+    rules: {
+        'react/prop-types': 'off',
+    },
 };
