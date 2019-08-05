@@ -1,4 +1,5 @@
 module.exports = {
+    extends: ['prettier/react'],
     plugins: ['react', 'react-hooks', 'relay'],
     settings: {
         react: {
@@ -38,6 +39,7 @@ module.exports = {
         'react/jsx-no-target-blank': 'warn',
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'warn',
+        // relay
         'relay/graphql-syntax': 'warn',
         'relay/no-future-added-value': 'warn',
     },
