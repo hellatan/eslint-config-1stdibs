@@ -397,6 +397,11 @@ eslint-config-1stdibs-base@^3.0.0-beta.1:
     eslint-plugin-prettier "^3.1.0"
     prettier "^1.18.2"
 
+eslint-config-1stdibs@^3.0.0:
+  version "3.3.1"
+  resolved "https://registry.npmjs.org/eslint-config-1stdibs/-/eslint-config-1stdibs-3.3.1.tgz#53fdfe07b76db6efbad9cf91dbc5ff0bbbf50ef2"
+  integrity sha1-U/3+B7dttu+62c+R28X/C7v1DvI=
+
 eslint-config-prettier@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-6.0.0.tgz#f429a53bde9fc7660e6353910fd996d6284d3c25"
