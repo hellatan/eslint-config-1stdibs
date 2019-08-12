@@ -385,10 +385,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-1stdibs-base@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.npmjs.org/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-3.0.0-beta.1.tgz#9fb32f5757473f8273f6df1266cd6cdfa4ca3e17"
-  integrity sha512-R1OAjhjBILts2SqdPmD0fkOLTOX2dTIlZ9GKayA2x68ufVqnAwe4Y74jAxg1hA8YVe4sCVFcCI/WvtvhShU13w==
+eslint-config-1stdibs-base@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-3.0.0.tgz#55f094a4156ccc95ee5e7b9c670df8e36ac50e01"
+  integrity sha512-97cvwa75rWSatQlMugNCw8Cdo23CAlHNrDnJY8ABX8ix6lhcAQAOofBAy9euEyGcr3ks425HH8dpB+NE0Gr2fg==
   dependencies:
     babel-eslint "^9.0.0"
     eslint-config-prettier "^6.0.0"
@@ -396,11 +396,6 @@ eslint-config-1stdibs-base@^3.0.0-beta.1:
     eslint-plugin-jest "^22.5.1"
     eslint-plugin-prettier "^3.1.0"
     prettier "^1.18.2"
-
-eslint-config-1stdibs@^3.0.0:
-  version "3.3.1"
-  resolved "https://registry.npmjs.org/eslint-config-1stdibs/-/eslint-config-1stdibs-3.3.1.tgz#53fdfe07b76db6efbad9cf91dbc5ff0bbbf50ef2"
-  integrity sha1-U/3+B7dttu+62c+R28X/C7v1DvI=
 
 eslint-config-prettier@^6.0.0:
   version "6.0.0"
